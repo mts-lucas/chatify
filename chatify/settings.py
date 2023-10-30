@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -72,6 +73,7 @@ TEMPLATES = [
 
 
 WSGI_APPLICATION = 'chatify.wsgi.application'
+ASGI_APPLICATION = "chatify.asgi.application"
 
 
 # Database
